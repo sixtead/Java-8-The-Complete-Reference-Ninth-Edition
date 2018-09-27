@@ -38,3 +38,5 @@ task execute(type:JavaExec) {
     main = project.hasProperty("mainClass") ? project.getProperty("mainClass") : "package.MyDefaultMain"
     if (project.hasProperty("args")) args findProperty("args")
 }
+
+task done {}

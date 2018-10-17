@@ -11,7 +11,7 @@ class IfElse {
             season = "весне";
         } else if(month == 6 || month == 7 || month == 8) {
             season = "лету";
-        } else if(month == 9 || month == 10 || month == 1) {
+        } else if(month == 9 || month == 10 || month == 11) {
             season = "осени";
         } else {
             season = "вымышленным месяцам";

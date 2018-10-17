@@ -34,6 +34,7 @@ repositories {
 
 // To run gradle -PmainClass=Boo execute
 task execute(type:JavaExec) {
+    standardInput = System.in
     classpath = sourceSets.main.runtimeClasspath
     main = project.hasProperty("mainClass") ? project.getProperty("mainClass") : "package.MyDefaultMain"
     if (project.hasProperty("args")) args findProperty("args")
